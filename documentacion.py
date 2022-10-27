@@ -307,7 +307,4 @@ else:
 
 #---BUCLES WHILE---
 
-print("hola mundo")
-
-
 
