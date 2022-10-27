@@ -288,7 +288,7 @@ print(f"EL resultado es: {suma_tot}")
 """
 EJEMPLO DE TABLA DE MULTIPLICAR
 """
-"""
+
 
 numero_usuario = int(input("ingrese el numero del cual desea conocer la tabla: "))
 numero_tabla = 0
@@ -303,7 +303,6 @@ else:
     else:
         print("tabla finalizada")
 
-"""
 
 #---BUCLES WHILE---
 
