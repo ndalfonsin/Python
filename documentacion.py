@@ -183,7 +183,7 @@ if year <= 2024 or year == 2023:
 else:
     print("ya eres mayor de edad")
 
-#if´s anidados
+#ifs anidados
 
 """
 """
@@ -305,5 +305,6 @@ else:
 
 
 #---BUCLES WHILE---
+
 
 
