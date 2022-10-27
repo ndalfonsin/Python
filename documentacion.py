@@ -289,6 +289,8 @@ print(f"EL resultado es: {suma_tot}")
 EJEMPLO DE TABLA DE MULTIPLICAR
 """
 
+"""
+
 
 numero_usuario = int(input("ingrese el numero del cual desea conocer la tabla: "))
 numero_tabla = 0
@@ -306,5 +308,51 @@ else:
 
 #---BUCLES WHILE---
 
+"""
+"""
+ Estructura de control que itera o repite la ejecucion de una serie de instrucciones tantas veces como sea necesario, hasta que deje de 
+ cumplirse la condicion
+"""
+"""
+contador = 0
+
+while contador < 100:
+    print(f"El numero {contador} es menor que 100")
+    contador += 1
+else: 
+    print(f"El numero es {contador}") 
 
 
+
+print("-------------------------------------------------------")
+
+#Como ver todos los numeros separados con ","
+
+contador = 1
+muestrame = str(0)
+
+while contador <= 100:
+    muestrame = muestrame + "," + str(contador)
+    contador += 1
+else:
+    print(muestrame)
+
+"""
+
+#Ejemplo de tabla de multiplicar con bucle while
+
+numero_usuario = int(input("¿De que numero desea conocer la tabla de multiplicar: "))
+
+if numero_usuario < 1:
+    numero_usuario = 1
+
+print(f"###### tabla del {numero_usuario} #######")
+
+contador = 1
+
+while contador <= 10:
+    print(f"{numero_usuario} x {contador} = {numero_usuario*contador}")
+    contador += 1
+else: 
+    print("Tabla finalizada")
+    
