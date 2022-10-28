@@ -1,19 +1,19 @@
 #Impresion por pantalla 
 from unittest import TestCase, result
 
-"""
+
 print("Hola mundo") 
 
 #Esto es un comentario
 
-"""
+
 """
 Esto tambien es un comentario
  pero puede ser mas largo
 
 """
-"""
-"""
+
+
 #---VARIABLES Y TIPOS---
 """
 Una variable es un contenedor de informacion que dentro guardara un dato,
@@ -21,7 +21,7 @@ se puede crear muchas variables y que cada una tenga un dato distinto.
 Al transcurrir el codigo puede que la variable tome o adopte otros valores. 
 
 """
-"""
+
 #variable de tipo string
 texto = "Master en python"
 print(texto)
@@ -33,12 +33,12 @@ texto = textonumerico
 
 print(textonumerico)
 print(type(textonumerico))
-"""
+
 """ 
 una variable puede comenzar siendo de un tipo pero esto puede verse modificado ya que python es un lenguaje 
 altamente tipado, entonces el mismo programa ya reconoce el tipo de variable
 """
-"""
+
 numero = 56 
 print(numero)
 print(type(numero))
@@ -96,12 +96,12 @@ print(web)
 #concatenacion con la funcion .format
 print("hola me llamo {} {} y mi web es {}".format(nombre, apellido, web))
 
-"""
+
 """
 solo se puede concatenar variables del mismo tipo
 en todo caso usar str(), int(), float(), bool()
 """
-"""
+
 
 #---OPERADORES---
 
@@ -147,13 +147,13 @@ print(f"me alegro de conocerte {nombre} y veo que tienes {edad} años")
 
 #---ESTRUCTURAS CONDICIONALES Y BUCLES---
 
-"""
+
 """
 Es una estructura de control que permite controlar el flujo
 del programa, es decir si un dato cumple una condicion se van a ejecutar un grupo 
 de instrucciones, y si no se ejecutaran otro grupo de instrucciones 
 """
-"""
+
 #if-else
 
 auto = "rojo"
@@ -165,7 +165,7 @@ else:
 
 
 #operadores de comparacion 
-"""
+
 """
 == IGUAL
 != DIFERENTE
@@ -175,7 +175,7 @@ else:
 >= MAYOR O IGUAL QUE
 
 """
-"""
+
 year = int(input("que año es?"))
 
 if year <= 2024 or year == 2023:
@@ -185,12 +185,12 @@ else:
 
 #ifs anidados
 
-"""
+
 """
 Programa que comprueba si una persona es mayor de edad y si es mayor, se mostrara su nombre.
 comprobar de que continente es esta persona
 """
-"""
+
 nombre = input("Cual es tu nombre?")
 edad = int(input("Cual es su edad?"))
 ciudad = input("Cual es tu ciudad actual de residencia?")
@@ -206,7 +206,7 @@ if edad >= mayoria_edad:
 else:
     print(f"{nombre} no es mayor de edad")
 
-"""
+
 
 """
 Crear un programa al que se le inserte un numero y en base a ese numero me imprima 
@@ -219,9 +219,9 @@ el dia de la semana que es.
 6- sabado
 7- domingo
 """
-#numero_dia = int(input("inserte el numero de dia de la semana:"))
+numero_dia = int(input("inserte el numero de dia de la semana:"))
 
-"""
+
 if numero_dia == 1:
     print("Hoy es lunes!")
 else:
@@ -263,7 +263,7 @@ elif numero_dia == 7:
 elif numero_dia< 1 or numero_dia > 7: #VEFICICACION DE LOS VALORES INGRESADOS POR EL USUARIO
     print("los valores ingresados son incorrectos")
 
-"""
+
 """
 Multiples condiciones
 realizar un programa que compruebe si una persona esta en edad de trabajar
@@ -274,7 +274,7 @@ realizar un programa que compruebe si una persona esta en edad de trabajar
 for variable in elemento_iterable (lista, rango, etc)
     BOQUE DE CONDICIONES
 """
-"""
+
 contador = 0
 suma_tot = 0
 
@@ -284,11 +284,9 @@ for contador in range(0,5):
     #suma_tot += contador
 
 print(f"EL resultado es: {suma_tot}")
-"""
+
 """
 EJEMPLO DE TABLA DE MULTIPLICAR
-"""
-
 """
 
 
@@ -309,11 +307,10 @@ else:
 #---BUCLES WHILE---
 
 """
-"""
  Estructura de control que itera o repite la ejecucion de una serie de instrucciones tantas veces como sea necesario, hasta que deje de 
  cumplirse la condicion
 """
-"""
+
 contador = 0
 
 while contador < 100:
@@ -337,7 +334,7 @@ while contador <= 100:
 else:
     print(muestrame)
 
-"""
+
 
 #Ejemplo de tabla de multiplicar con bucle while
 
@@ -355,4 +352,4 @@ while contador <= 10:
     contador += 1
 else: 
     print("Tabla finalizada")
-    
+
