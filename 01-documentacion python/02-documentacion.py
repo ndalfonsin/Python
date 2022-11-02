@@ -172,4 +172,81 @@ print(dime_el_year(2022))
      CONSULTAR EL ARCHIVO DE FUNCIONES PREDEFINIDAS DE PYTHON '03-predefinidas.py'
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 """
+"""
+---LISTAS---
+
+es una coleccion o conjunto de datos bajo un unico nombre
+para acceder a esos valores podemos utilizar indices numericos
+"""
+
+#definir lista
+peliculas = ["Batman","Superman","Iron Man","Hulk"]
+cantantes = list(('James', 'Zakk', 'Ozzy')) #TUPLA NO CAMBIA
+years = list(range(2020,2050))
+lista_variada = ["Jane",30,75438,True]
+
+print(peliculas)
+print(cantantes)
+print(years)
+print(lista_variada)
+
+#Indices
+
+print(peliculas[1])
+print(peliculas[-2])
+print(cantantes[1:3])
+print(cantantes[0:1])
+
+#modificar elementos de una lista
+lista_variada[3] = "Doe"
+print(lista_variada[3])
+
+#Añadir elementos a una lista
+cantantes.append("Drake")
+print(cantantes)
+
+#Recorrer los elementos de una lista utilizando el bucle for
+print("*********************************************")
+
+for pelicula in peliculas:
+    print(f"{peliculas.index(pelicula)} - {pelicula} "+"\n")
+
+
+#Agregar contenido a una lista con un bucle while
+
+nueva_pelicula = ""
+
+while nueva_pelicula != "parar":
+    nueva_pelicula = input("Introduce una pelicula: ")
+    if nueva_pelicula != "parar":    
+        peliculas.append(nueva_pelicula)
+
+for pelicula in peliculas:
+    print(f"{peliculas.index(pelicula)} - {pelicula} "+"\n")
+
+ 
+#Listas multidimensionales
+
+contactos = [
+    [
+        'Antonio',
+        'antonio@mail.com'
+    ],
+    [
+        'Jane Doe',
+        'janedoe@mail.com'
+    ],
+    [
+        'Walter', 
+        'walter@mail.com'
+    ]
+]
+
+for contacto in contactos:
+    for elemento in contacto:
+        if contacto.index(elemento) == 0:
+            print("Nombre: "+elemento)
+        else:
+            print("Email: "+elemento)
+    print("\n")
 

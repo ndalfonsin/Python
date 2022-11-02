@@ -46,3 +46,24 @@ print(nueva_frase)
 print(nombre.lower()) #todo minusculas
 print(nombre.upper()) #todo mayusculas
 
+
+"""
+---FUNCIONES CON LISTAS---
+"""
+
+cantantes = ['James', 'Ozzy', 'Zakk', 'Axl']
+num = [0, 3,5,7,5,8,3,45,9]
+
+#Ordenar los numeros
+num.sort()
+print(num)
+
+#Añadir elementos
+cantantes.append("David")
+cantantes.insert(5,"Freddy")
+print(cantantes)
+
+#Eliminar elementos
+cantantes.pop(5)
+print(cantantes)
+
