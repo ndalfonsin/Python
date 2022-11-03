@@ -250,3 +250,49 @@ for contacto in contactos:
             print("Email: "+elemento)
     print("\n")
 
+
+"""
+SET es un tipo de dato, para obtener una coleccion de valores, pero no tiene indice ni orden
+"""
+
+personas = {
+    "Victor",
+    "Manolo",
+    "Francisco"
+}
+
+personas.add("Paco")
+
+print(type(personas))
+print(personas)
+
+"""
+Diccionario:
+Un tipo de dato que almacena un conjunto de datos.
+En formato clave > valor.
+Es parecido a un a in array asociativo o un objeto json.
+"""
+
+persona = {
+    "nombre":"Jane",
+    "apellidos":"Doe",
+    "web":"janedoe.web"
+}
+
+print(persona["web"])
+
+#Lista con diccionarios
+
+contactos = [
+    {
+        'nombre': 'Jane',
+        'email': 'janedoe@mail.com'
+    },
+    {
+        'nombre': 'Luis',
+        'email': 'luismail.com'
+    }
+]
+
+print(contactos[1]['nombre'])
+
