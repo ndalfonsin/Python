@@ -143,7 +143,7 @@ operacion = input("'S' suma ; 'R' resta ; 'M' multiplicacion ; 'D' division : ")
 print(calculadora(numero, numero2, operacion))
 
 """
-
+"""
 #Ejemplo 4: Funciones dentro de otras funciones
 
 def getnombre(nombre):
@@ -168,6 +168,9 @@ dime_el_year = lambda year: f"El año es {year+2}"
 print(dime_el_year(2022))
 
 """
+
+
+"""
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
      CONSULTAR EL ARCHIVO DE FUNCIONES PREDEFINIDAS DE PYTHON '03-predefinidas.py'
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -177,6 +180,7 @@ print(dime_el_year(2022))
 
 es una coleccion o conjunto de datos bajo un unico nombre
 para acceder a esos valores podemos utilizar indices numericos
+"""
 """
 
 #definir lista
@@ -250,9 +254,13 @@ for contacto in contactos:
             print("Email: "+elemento)
     print("\n")
 
+"""
+
 
 """
 SET es un tipo de dato, para obtener una coleccion de valores, pero no tiene indice ni orden
+"""
+
 """
 
 personas = {
@@ -265,6 +273,7 @@ personas.add("Paco")
 
 print(type(personas))
 print(personas)
+"""
 
 """
 Diccionario:
@@ -272,6 +281,8 @@ Un tipo de dato que almacena un conjunto de datos.
 En formato clave > valor.
 Es parecido a un a in array asociativo o un objeto json.
 """
+"""
+
 
 persona = {
     "nombre":"Jane",
@@ -295,4 +306,6 @@ contactos = [
 ]
 
 print(contactos[1]['nombre'])
+"""
+
 
