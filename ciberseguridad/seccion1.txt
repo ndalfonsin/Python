@@ -1,0 +1,109 @@
+Ciberseguridad y privacidad. 
+
+¿Que es la seguridad de la informacion, seguridad informatica y ciberseguridad?
+
+.integridad, confidencialidad y disponibilidad. 
+
+-seguridad de la informacion: Busca proteger la informacion de todos los posibles riegos que puedan afectarla. 
+sean fisicos o logicos. 
+-Seguridad informatica: busca la proteccion de la informacion y los equipos informaticos que 
+la contienen de manera logica y fisica.
+-ciberseguridad: son todos los procesos y medidas de seguridad que se aplican principalmente 
+par proteger la informacion a nivel logicos.
+    "La proteccion de los activos de informacion, abordando
+    las amenazas a la informacion procesada, almacenada y 
+    transportada por sistemas de informacion interconectados"
+
+Proteccion de la informacion digital
+
+seguridad de la informacion
+    seguridad informatica
+        ciberseguridad
+
+VULNERABILIDADES Y TIPOS:
+
+Vulnerabilidad:
+
+Es un fallo defecto de seguridad, algun punto debil dentro de un sistema, aplicacion,
+servicio, entre otros; que si es explotado pueden poner en riesgo la confidencialidad,
+integridad y disponibilidad de la informacion dentro del sistema.
+
+    -Exploit: Es un termino definido como una secuencia de comandos utilizados
+    para explotar una vulnerabilidad. Para inyectar el payload
+    -Payload: Es la accion a realizar una vez explotada la vulnerabilidad.
+    -0-day: todas las vulnerabilidades que no son conocidas y llevan 0 dias de ser descubiertas. 
+
+TIPOS DE VULNERABILIDADES:
+
+-Naturales: Son aquellas que van consecuencia de las condiciones ambientales, condiciones que se 
+puedan poner en riesgo la informacion. 
+
+-Fisicas: Debilidades en lugares donde la informacion se trata o almacena de forma fisica. 
+
+-Software: Son fallos de seguridad y/o malas configuraciones en aplicaciones, sistemas operativos
+o servicios intalados que pueden poner en riesgo la informacion. 
+        BASE DE DATOS PARA RECOGER VULNERABILIDADES.
+La mayoria de las vulnerabilidades se pueden corregir haciendo una buena 
+configuracion y manteniendo actualizado el sistema operativo, las aplicaciones
+o servicios instalados. 
+
+-Hardware: Esto son defectos que puedan tener los componentes de hardware de un equipo, 
+defectos de fabrica, configuracion o deterioro que puedan poner en riesgo
+la informacion. 
+    Uso inadecuado de los componentes o mal mantenimiento, por si algun componente falla. 
+
+-Comunicacion: Son debilidades que puedan comprometer la informacion que viaja a travez
+de los distintos medios de comunicacion, los mas comunes como cables o medios de comunicacion
+inalambricos. 
+    Por ejemplo que no exista un nivel de encriptacion. 
+
+-Humanas: son debilidades muy dificiles de corregir que pueden ser 
+aprovechados por un atacante para obtener por ejemplo, informacion confidencial. 
+
+Malwares y tipos:
+
+Malware:
+
+Es un acronimo a las palabras en ingles MALicious y softWARE, 
+que significa malicioso o programa malicioso. Es un programa 
+que busca infectar un dispositivo con el objetivo de traer 
+un beneficio para su creador o meramente causar daño y a su vez
+engloba a todo el conjunto de codigos maliciosos que tienen
+el mismo fin.
+
+TIPOS DE MALWARE:
+
+-Virus: Todos los virus son malwares pero no todos los malwares son virus.
+Son programas diseñados para causar daño u obtener un beneficio al 
+infectar al dispositivo. 
+Funcionan de maneras distintas, una de ellas es que al infectar un dispositivo
+y al ser ejecutados por el usuario, crean residentes en la memoria ram, posteriormente 
+comienza a tomar control de los servicios basicos. 
+
+-Gusano: Tipo de malware que se caracteriza por poder duplicarse a si mismo
+sin ayuda de un usuario. 
+Se duplica y lo hace en la memoria ram. 
+
+-Troyano: Es un malware que simula ser un programa legitimo, para hacer que el usuario
+lo ejecute, es decir, simula ser un programa que no trae codigo malicioso, pero si lo trae.
+necesitan del usuario para ser ejecutado. 
+
+-Spyware: Es un tipo de malware que puede recopilar la informacion del usuario infectado
+sin que este haya dado su consentimiento y usualmente esa informacion se vende a terceros. 
+
+-Adware: Trabaja de manera similar al spyware, lo que hace es mostrar una serie de anuncios
+en el dispositivo infectado, incluso llegando a sustituir la publicidad de una web
+por una publicidad propia con la que sus creadores pueden obtener beneficios. 
+
+-Ransomware: Encripta la informacion del dispositivo infectado y pide un rescate que
+normalmente es economico para poder desencriptar la informacion. 
+
+-Rouge: Malware que se presenta como un antivirus diciendote que tu dispositivo
+esta infectado y que debes comprar ese antivirus para poder desinfectar el dispositivo. 
+
+PARA ANALIZAR SI URLS O ARCHIVOS, ficheros, etc; TIENE VIRUS CON: VIRUS TOTAL.
+tambien los links acortados con bittly, podemos expandir con expand url.
+
+ANALIZAR WINDOWS EN BUSCA DE MALWARE.
+
+process explorer v16.32

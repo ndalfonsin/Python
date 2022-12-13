@@ -1,0 +1,24 @@
+TERMUX:
+
+¿Que es una IP?
+4 numeros separados por un punto. 
+hay dos tipos de IP, la publica y la privada.
+
+La privada es la ip con la que se vinculan mis dispositivos, en cambio, la
+IP publica es con la que nos comunicamos con internet. 
+
+PROTOCOLOS, SERVICIOS y PUERTOs.
+
+comandos basicos de termux:
+
+apt (instalar)
+mkdir crear carpetas
+nano ver archivos o carpetas
+crl + x pa salir del nano
+ls ver donde estamos
+cd .. para atras 
+cd "" para acceder
+ pwd, ver donde estas.
+ifconfig para ver la ip
+ping 8.8.8.8 para saber si tnemos internet.
+se frena con crl + c
